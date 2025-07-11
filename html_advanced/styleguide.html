@@ -3,31 +3,175 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-        <title>Styleguide - Techium</title>
-        <meta name="description" content="Techium is a digital agency">
+        <title>Techium Style Guide</title>
+        <meta name="description" content="Design system for Techium digital agency">
         <link rel="icon" type="image/x-icon" href="./favicon.ico">
         <link rel="icon" type="image/png" href="./favicon.png">
     </head>
     <body>
         <header></header>
         <main>
-            <!-- All previous sections from task 39 remain unchanged -->
-            
-            <!-- Audio section from task 39 -->
+            <!-- Headings -->
             <section>
-                <header>
-                    <h2>Audio</h2>
-                </header>
+                <header><h2>Headings</h2></header>
+                <h1>Main page title</h1>
+                <h2>Section heading</h2>
+                <h3>Subsection heading</h3>
+                <h4>Content heading</h4>
+                <h5>Small heading</h5>
+                <h6>Minor heading</h6>
+            </section>
+
+            <!-- Paragraph -->
+            <section>
+                <header><h2>Text Elements</h2></header>
+                <h2>Our Services</h2>
+                <p>Premium digital solutions</p>
+                <p>We create innovative websites and applications that help businesses grow. Our team combines technical expertise with creative design to deliver exceptional digital experiences.</p>
+            </section>
+
+            <!-- Lists -->
+            <section>
+                <header><h2>Lists</h2></header>
+                <div>
+                    <h3>Unordered List</h3>
+                    <ul>
+                        <li>Web Design</li>
+                        <li>Mobile Development</li>
+                        <li>Digital Marketing</li>
+                    </ul>
+                    <h3>Ordered List</h3>
+                    <ol>
+                        <li>Project Discovery</li>
+                        <li>UI/UX Design</li>
+                        <li>Development</li>
+                    </ol>
+                    <h3>Definition List</h3>
+                    <dl>
+                        <dt>Responsive Design</dt>
+                        <dd>Adapts to all screen sizes</dd>
+                        <dt>SEO</dt>
+                        <dd>Search engine optimization</dd>
+                        <dt>CMS</dt>
+                        <dd>Content management system</dd>
+                    </dl>
+                </div>
+            </section>
+
+            <!-- Horizontal rule -->
+            <section>
+                <header><h2>Dividers</h2></header>
+                <div><hr></div>
+            </section>
+
+            <!-- Blockquotes -->
+            <section>
+                <header><h2>Quotations</h2></header>
+                <div>
+                    <h3>Inline Quote</h3>
+                    <q>Digital transformation is key to business success.</q>
+                </div>
+                <div>
+                    <h3>Block Quote</h3>
+                    <blockquote>
+                        <p>Techium delivered our new website ahead of schedule and under budget. Their team demonstrated exceptional technical skills and creative problem-solving throughout the project.</p>
+                        <cite>Sarah Johnson, Acme Corp</cite>
+                    </blockquote>
+                </div>
+            </section>
+
+            <!-- Typography -->
+            <section>
+                <header><h2>Typography</h2></header>
+                <div>
+                    <address>
+                        Techium Headquarters<br>
+                        123 Digital Avenue<br>
+                        San Francisco, CA 94107
+                    </address>
+                </div>
+                <div>
+                    <pre><code>
+function helloWorld() {
+    console.log("Welcome to Techium");
+}
+                    </code></pre>
+                </div>
+                <div>
+                    <p>Our <mark>highlighted</mark> services include <mark>e-commerce</mark> solutions and <mark>custom</mark> web applications.</p>
+                </div>
+            </section>
+
+            <!-- Table -->
+            <section>
+                <header><h2>Data Tables</h2></header>
+                <table>
+                    <caption>Project Timeline</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Phase</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Deliverables</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Planning</th>
+                            <td>2 weeks</td>
+                            <td>Requirements document</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Design</th>
+                            <td>3 weeks</td>
+                            <td>Wireframes & prototypes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Development</th>
+                            <td>6 weeks</td>
+                            <td>Final product</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Details -->
+            <section>
+                <header><h2>Interactive Elements</h2></header>
+                <div>
+                    <h3>Default Accordion</h3>
+                    <details>
+                        <summary>Our Process</summary>
+                        <p>We follow an agile development methodology with regular client check-ins and iterative improvements.</p>
+                    </details>
+                </div>
+                <div>
+                    <h3>Open Accordion</h3>
+                    <details open>
+                        <summary>Core Technologies</summary>
+                        <p>HTML5, CSS3, JavaScript, React, Node.js</p>
+                    </details>
+                </div>
+            </section>
+
+            <!-- Video -->
+            <section>
+                <header><h2>Media: Video</h2></header>
+                <video src="https://intranet-projects-files.s3.amazonaws.com/webstack/BigBuckBunny.mp4" controls loop poster="https://intranet-projects-files.s3.amazonaws.com/webstack/thumbnail.jpg">
+                    Your browser doesn't support HTML5 video
+                </video>
+            </section>
+
+            <!-- Audio -->
+            <section>
+                <header><h2>Media: Audio</h2></header>
                 <audio src="https://intranet-projects-files.s3.amazonaws.com/webstack/TroubleChapter8_64kb.mp3" controls>
-                    Sorry, your browser doesn't support audio element
+                    Your browser doesn't support audio elements
                 </audio>
             </section>
 
             <!-- Iframe -->
             <section>
-                <header>
-                    <h2>Iframe</h2>
-                </header>
+                <header><h2>Embedded Content</h2></header>
                 <div>
                     <iframe 
                         title="Holberton School" 
